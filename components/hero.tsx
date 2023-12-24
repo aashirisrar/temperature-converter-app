@@ -1,4 +1,5 @@
 import React from "react";
+import { CardWithForm } from "./card-main";
 
 const Hero = () => {
   return (
@@ -50,7 +51,7 @@ const Hero = () => {
         Dashboard, cards, authentication. Some examples built using the
         components. Use this as a guide to build your own.
       </span>
-      <div className="flex w-full items-center justify-center space-x-4 py-4 md:pb-10">
+      <div className="flex w-full items-center justify-center space-x-4 py-4 md:pb-5">
         <a
           className="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground shadow hover:bg-primary/90 h-9 px-4 py-2 rounded-[6px]"
           href="/docs"
@@ -64,6 +65,7 @@ const Hero = () => {
           Components
         </a>
       </div>
+      <CardWithForm />
     </section>
   );
 };
