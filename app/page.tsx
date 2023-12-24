@@ -1,10 +1,10 @@
 "use client";
-import { ModeToggle } from "@/components/mode-toggle";
+import { MainNavigationMenu } from "@/components/navbar";
 
 export default function Home() {
   return (
     <main className="">
-      <ModeToggle />
+      <MainNavigationMenu />
     </main>
   );
 }
