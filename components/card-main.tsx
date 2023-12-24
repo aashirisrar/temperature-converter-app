@@ -81,6 +81,7 @@ export function CardWithForm() {
             <div className="flex flex-col space-y-1.5">
               <Label htmlFor="input">Input</Label>
               <Input
+                type="number"
                 required
                 id="input"
                 placeholder="Number to convert"
